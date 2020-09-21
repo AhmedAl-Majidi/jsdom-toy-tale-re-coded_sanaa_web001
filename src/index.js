@@ -1,10 +1,10 @@
 // let addToy = false;
-// 
+//
 // document.addEventListener("DOMContentLoaded", () => {
 //   const addBtn = document.querySelector("#new-toy-btn");
 //   const toyFormContainer = document.querySelector(".container");
 //   addBtn.addEventListener("click", () => {
-// 
+//
 //     addToy = !addToy;
 //     if (addToy) {
 //       toyFormContainer.style.display = "block";
@@ -42,4 +42,3 @@ fetch("http://localhost:3000/toys")
         //
       collection.append(newToy);
     });
-
